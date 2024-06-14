@@ -1,0 +1,62 @@
+/* List.css */
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    color: black;
+}
+
+.list h1 {
+    color: black;
+}
+
+.list input, .list select, .list button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.list button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.list button:hover {
+    background-color: #0056b3;
+}
+
+.list table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list th, .list td {
+    border: 1px solid #007bff;
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+
+.list th {
+    background-color: #f2f2f2;
+}
+
+.task-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
